@@ -1,0 +1,30 @@
+.navbar-nav a.nav-link{
+  font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+  padding: 0px !important;
+}
+ul.navbar-nav li.nav-item{
+margin: 0 20px;
+}
+ul.navbar-nav .nav-item:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  transition: width .5s ease, background-color .5s ease;
+}
+.navbar-nav .nav-item:hover:after {
+  width: 100%;
+  background:black;
+}
+
+
+ .imp
+ {
+   letter-spacing: 0.13em;
+ }
+
+ .imp:hover
+ {
+   color: white;
+ }
