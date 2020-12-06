@@ -1,0 +1,29 @@
+a:hover{
+box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  opacity: 70%;
+}
+
+
+.row img:hover{
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.65em);
+  filter: hue-rotate(340deg) blur(0.8px);
+
+}
+.grid-item img:hover{
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  filter:  grayscale(1)  blur(0.8px) ;
+
+}
+.blog-post img:hover{
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.65em);
+  filter: hue-rotate(340deg) blur(0.8px);
+}
+.custom-container img:hover{
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.35em);
+  filter: hue-rotate(345deg) blur(0.8px);
+}
