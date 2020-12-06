@@ -101,6 +101,14 @@ margin: 0;
     height: 20vh;
     width: 100%;
 }
+.grid-item a{
+    margin: 2%;
+
+}
+.grid-item a:hover{
+    opacity: .5;
+    
+}
 
 /*Media Queries*/
 
