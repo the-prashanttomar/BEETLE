@@ -27,3 +27,6 @@ box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.35em);
   filter: hue-rotate(345deg) blur(0.8px);
 }
+.fooooot2{
+  overflow: hidden;
+}
